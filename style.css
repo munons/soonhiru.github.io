@@ -1,4 +1,4 @@
-/* Reset default margin dan padding */
+/* Reset dan dasar */
 * {
   margin: 0;
   padding: 0;
@@ -14,10 +14,11 @@ body {
 
 /* Header */
 header {
-  background-color: #333;
+  background-color: #222;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
@@ -27,99 +28,88 @@ header h1 {
 
 header p {
   font-size: 1.2rem;
-  margin-top: 10px;
+  opacity: 0.85;
 }
 
-/* Kontainer */
+/* Container */
 .container {
   width: 90%;
-  max-width: 1200px;
-  margin: 20px auto;
+  max-width: 900px;
+  margin: 30px auto;
   background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Heading */
+/* Judul section */
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 15px;
   color: #444;
-}
-
-h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-/* Tentang Saya */
-section p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.8;
-  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
 }
 
 /* Proyek */
 .project {
   margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #ccc;
+  transition: background 0.3s ease;
 }
 
-.project:last-child {
-  border-bottom: none;
+.project:hover {
+  background-color: #f9f9f9;
 }
 
-.project p {
-  font-size: 1rem;
-  color: #777;
-  margin-top: 5px;
+.project h3 {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.project i {
+  color: #1e90ff;
+  margin-right: 8px;
 }
 
 /* Kontak */
-section a {
-  color: #1e90ff;
-  text-decoration: none;
+section p {
+  font-size: 1rem;
+  margin-bottom: 8px;
 }
 
-section a:hover {
-  text-decoration: underline;
+section i {
+  color: #1e90ff;
+  margin-right: 8px;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: white;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
   margin-top: 40px;
+  font-size: 0.9rem;
 }
 
-/* Responsivitas */
+/* Responsif */
 @media screen and (max-width: 768px) {
   header h1 {
     font-size: 2rem;
   }
 
-  header p {
-    font-size: 1rem;
-  }
-
   .container {
-    width: 95%;
+    padding: 15px;
   }
 
   h2 {
     font-size: 1.5rem;
   }
 
-  h3 {
-    font-size: 1.2rem;
-  }
-
-  section p, .project p {
-    font-size: 0.9rem;
+  .project h3 {
+    font-size: 1.1rem;
   }
 }
