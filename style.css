@@ -1,38 +1,39 @@
-/* Mengatur warna latar belakang halaman secara keseluruhan */
-body {
-  background: linear-gradient(45deg, #4facfe, #00f2fe); /* Gradasi biru dan aqua */
-  font-family: 'Roboto', sans-serif; /* Font Google */
-  color: #333;
+/* Reset dan pengaturan dasar */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-size: cover; /* Memastikan gambar latar belakang mencakup seluruh layar */
-  background-attachment: fixed; /* Membuat latar belakang tetap saat menggulir */
-  height: 100vh; /* Menjamin halaman mengambil tinggi penuh layar */
 }
 
-/* Mengatur tampilan header */
+body {
+  background: linear-gradient(45deg, #4facfe, #00f2fe);
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Header */
 header {
-  background-color: rgba(0, 0, 0, 0.7); /* Warna hitam transparan untuk header */
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 20px 0;
   text-align: center;
-  border-bottom: 4px solid #00f2fe; /* Border bawah dengan warna yang cerah */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan lembut */
+  border-bottom: 4px solid #00f2fe;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Mengatur kontainer utama */
+/* Kontainer Utama */
 .container {
   padding: 20px;
   max-width: 800px;
-  margin: auto;
-  background: rgba(255, 255, 255, 0.9); /* Membuat konten terlihat kontras dengan latar belakang */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
-  border-radius: 8px; /* Sudut melengkung */
-  margin-top: 40px; /* Memberikan jarak antara konten dan header */
-  z-index: 2; /* Agar konten tetap di atas latar belakang */
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-/* Mengatur bagian proyek */
+/* Proyek */
 .project {
   background-color: #f4f4f4;
   padding: 15px;
@@ -43,60 +44,57 @@ header {
 }
 
 .project:hover {
-  transform: translateY(-5px); /* Efek hover untuk sedikit mengangkat proyek */
+  transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Mengatur link */
+/* Link */
 a {
-  color: #00f2fe; /* Warna biru terang untuk link */
-  text-decoration: none; /* Hilangkan garis bawah */
+  color: #00f2fe;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #ff6347; /* Ubah warna link saat hover */
-  text-decoration: underline; /* Menambahkan garis bawah saat hover */
+  color: #ff6347;
+  text-decoration: underline;
 }
 
-/* Mengatur bagian footer */
+/* Footer */
 footer {
   background: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 15px;
-  text-align: center; /* Menambahkan ini untuk menengahkan teks */
+  text-align: center;
   font-size: 14px;
   margin-top: 20px;
   border-top: 4px solid #00f2fe;
-  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.3); /* Memberikan bayangan pada footer */
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Menambahkan padding pada setiap section */
+/* Section dan Icon */
 section {
   padding: 20px 0;
 }
 
-/* Mengatur tampilan untuk icon dan teks */
 section i {
   margin-right: 10px;
 }
 
-/* Efek hover pada icon */
 section a:hover i {
   color: #ff6347;
   transition: color 0.3s ease;
 }
 
-/* Mengatur ukuran dan tampilan untuk ikon */
 i {
   font-size: 1.5em;
 }
 
-/* Menambahkan efek pada teks header */
+/* Heading */
 h1, h2, h3 {
   transition: transform 0.3s ease;
 }
 
 h1:hover, h2:hover, h3:hover {
-  transform: scale(1.1); /* Membuat teks sedikit lebih besar saat dihover */
+  transform: scale(1.1);
 }
