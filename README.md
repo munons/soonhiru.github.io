@@ -1,7 +1,7 @@
 # 🧰 Munons | Portofolio
 
 Selamat datang di website portofolio saya!  
-Saya adalah seorang **teknisi komputer** dan **pelajar** yang sedang belajar.
+Saya adalah seorang **pelajar** dan **teknisi komputer** yang sedang belajar.
 
 ## ✨ Fitur
 
