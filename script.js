@@ -1,16 +1,18 @@
 // Animasi ketik di header
-function typeTitle() {
-  const title = document.querySelector("header h1");
-  const text = "TekTis Jakarta";
-  let i = 0;
-  title.textContent = "";
+// Efek Teks Ketik
+const typingText = document.getElementById("typing-text");
+const text = "Selamat datang di Portofolio Saya!";
+let i = 0;
 
-  const typing = setInterval(() => {
-    title.textContent += text.charAt(i);
+function typeEffect() {
+  if (i < text.length) {
+    typingText.innerHTML += text.charAt(i);
     i++;
-    if (i > text.length) clearInterval(typing);
-  }, 150);
+    setTimeout(typeEffect, 100);
+  }
 }
+
+window.onload = typeEffect;
 
 // Efek hover proyek
 const projects = document.querySelectorAll(".project");
