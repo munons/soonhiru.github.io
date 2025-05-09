@@ -1,100 +1,63 @@
-/* Reset dan pengaturan dasar */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background: linear-gradient(45deg, #4facfe, #00f2fe);
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-  line-height: 1.6;
-  min-height: 100vh;
+  background-color: #121212;
+  color: #ffffff;
+  scroll-behavior: smooth;
 }
 
-/* Header */
-header {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
+.section-title {
+  border-bottom: 2px solid #00bfff;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, #00bfff, #0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer {
+  background-color: #1e1e1e;
   padding: 20px 0;
   text-align: center;
-  border-bottom: 4px solid #00f2fe;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  color: #aaa;
 }
 
-/* Kontainer Utama */
-.container {
-  padding: 20px;
-  max-width: 800px;
-  margin: 40px auto;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-}
-
-/* Proyek */
-.project {
-  background-color: #f4f4f4;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-}
-
-.project:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-/* Link */
 a {
-  color: #00f2fe;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #ff6347;
   text-decoration: underline;
 }
 
-/* Footer */
-footer {
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 15px;
-  text-align: center;
-  font-size: 14px;
-  margin-top: 20px;
-  border-top: 4px solid #00f2fe;
-  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.3);
-}
-
-/* Section dan Icon */
-section {
-  padding: 20px 0;
-}
-
-section i {
-  margin-right: 10px;
-}
-
-section a:hover i {
-  color: #ff6347;
+.nav-link {
   transition: color 0.3s ease;
 }
 
-i {
-  font-size: 1.5em;
+.nav-link:hover {
+  color: #00bfff !important;
 }
 
-/* Heading */
-h1, h2, h3 {
-  transition: transform 0.3s ease;
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #1e1e1e;
+  border: 1px solid #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-h1:hover, h2:hover, h3:hover {
-  transform: scale(1.1);
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.3);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
 }
