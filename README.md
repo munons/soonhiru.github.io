@@ -4,7 +4,7 @@ Halo! Saya **Munons**, seorang pelajar dan teknisi komputer.
 Ini adalah website portofolio sederhana yang saya buat untuk mendokumentasikan:
 
 - 🔧 Proyek servis dan perawatan Komputer, Laptop & Handphone
-- 💻 Pembuatan website profil sekolah
+- 💻 Pembuatan website profil sederhana
 - 🧠 Pengalaman belajar dan eksperimen HTML , CSS , JavaScript, PHP, MySQL & Wordpress
 
 ---
