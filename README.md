@@ -1,26 +1,36 @@
-# Portofolio TekTis Jakarta
+# 💼 Munons | Portofolio Teknisi Komputer
 
-Selamat datang di repositori portofolio saya!  
-Website ini dibuat untuk menampilkan pengalaman, proyek, dan layanan saya sebagai teknisi komputer dan pelajar yang sedang belajar pengembangan web.
+Halo! Saya **Munons**, seorang pelajar dan teknisi komputer.  
+Ini adalah website portofolio sederhana yang saya buat untuk mendokumentasikan:
 
-## Tentang
-Saya adalah seorang teknisi komputer, pelajar, dan freelancer yang antusias dalam bidang teknologi. Proyek-proyek di website ini mencerminkan keahlian saya di bidang servis laptop, perakitan komputer, pembuatan website sederhana, dan instalasi sistem operasi.
+- 🔧 Proyek servis dan perawatan Komputer, Laptop & Handphone
+- 💻 Pembuatan website profil sekolah
+- 🧠 Pengalaman belajar dan eksperimen HTML , CSS , JavaScript, PHP, MySQL & Wordpress
 
-## Live Website
-Website ini dapat diakses melalui:  
-**[https://munons.github.io](https://munons.github.io)**
+---
 
-## Kontribusi
-Repositori ini bersifat publik agar semua orang dapat melihat.  
-Jika kamu ingin menyarankan perubahan atau perbaikan, silakan buat _Pull Request_ atau _Issue_.
+## 🛠 Teknologi yang Digunakan
 
-> Mohon untuk **tidak mengedit langsung** atau menyalahgunakan konten tanpa izin.
+- HTML5
+- CSS3 + Font Awesome Icons
+- GitHub Pages (hosting gratis & cepat)
 
-## Kontak
-- Email: soonhiru@gmail.com  
+---
+
+## 🔗 Live Preview
+
+Website online:  
+👉 [https://munons.github.io](https://munons.github.io)
+
+---
+
+## 📬 Kontak Saya
+
+- Email: [soonhiru@gmail.com](mailto:soonhiru@gmail.com)  
 - Instagram: [@ahmdmhjir28](https://instagram.com/ahmdmhjir28)  
 - YouTube: [@soonhiru](https://youtube.com/@soonhiru)
 
 ---
 
-© 2025 MUNONS – Semua hak dilindungi.
+> Dibuat dengan semangat belajar dan keinginan berbagi karya.  
+> © 2025 Munons
