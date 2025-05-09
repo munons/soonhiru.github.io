@@ -46,11 +46,6 @@ a:hover {
   border-radius: 10px;
 }
 
-.card-hover:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 15px rgba(0, 191, 255, 0.3);
-}
-
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
