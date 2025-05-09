@@ -1,19 +1,27 @@
-# 🧰 Portofolio TekTis Jakarta
+# 🧰 Munons | Portofolio
 
 Selamat datang di website portofolio saya!  
 Saya adalah seorang **teknisi komputer** dan **pelajar** yang sedang belajar.
 
 ## ✨ Fitur
 
-- 🎨 Tampilan bersih dan responsif
-- 🔠 Ikon menarik dari Font Awesome
-- 📱 Efek animasi sentuh untuk mobile dan desktop
+- 🎨 Tampilan bersih, modern, dan responsif dengan **Bootstrap 5**
+- 🔠 Ikon menarik dari **Bootstrap Icons**
+- 📱 Efek animasi scroll dan hover untuk mobile & desktop
 - 📂 Konten: Tentang Saya, Proyek, dan Kontak
+- ⚙️ Custom CSS dan JavaScript untuk tampilan lebih menarik
 
 ## 🔗 Live Demo
 
 Buka langsung di:  
 [https://munons.github.io](https://munons.github.io)
+
+## 🧱 Framework yang Digunakan
+
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- HTML5 + CSS3 + JavaScript
+- Hosting via GitHub Pages
 
 ## 📬 Kontak
 
