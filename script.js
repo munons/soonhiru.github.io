@@ -28,9 +28,6 @@ projects.forEach(function (project) {
   });
 });
 
-// Menambahkan event listener untuk elemen proyek agar bisa mendeteksi sentuhan pada perangkat seluler
-const projects = document.querySelectorAll(".project");
-
 // Menambahkan efek saat elemen proyek disentuh di perangkat seluler
 projects.forEach(function (project) {
   // Event untuk saat elemen disentuh
