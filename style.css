@@ -61,3 +61,11 @@ a:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
+.carousel-item .card-hover {
+  min-height: 200px; /* atau sesuaikan dengan konten tertinggi */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
