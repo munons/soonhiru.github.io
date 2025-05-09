@@ -1,9 +1,3 @@
-// Sambutan otomatis
-window.onload = function () {
-  alert("Selamat datang di portofolio saya!");
-  typeTitle(); // jalankan animasi ketik
-};
-
 // Animasi ketik di header
 function typeTitle() {
   const title = document.querySelector("header h1");
@@ -32,23 +26,23 @@ projects.forEach(function (project) {
   });
 });
 
-// Dark mode toggle
-const toggleButton = document.createElement("button");
-toggleButton.textContent = "🌙 Dark Mode";
-toggleButton.style.position = "fixed";
-toggleButton.style.top = "10px";
-toggleButton.style.right = "10px";
-toggleButton.style.padding = "8px 12px";
-toggleButton.style.border = "none";
-toggleButton.style.borderRadius = "6px";
-toggleButton.style.cursor = "pointer";
-document.body.appendChild(toggleButton);
+// Menambahkan event listener untuk elemen proyek agar bisa mendeteksi sentuhan pada perangkat seluler
+const projects = document.querySelectorAll(".project");
 
-let dark = false;
+// Menambahkan efek saat elemen proyek disentuh di perangkat seluler
+projects.forEach(function (project) {
+  // Event untuk saat elemen disentuh
+  project.addEventListener("touchstart", function () {
+    // Menambahkan efek transformasi dan bayangan saat disentuh
+    project.style.transform = "scale(1.05)";
+    project.style.transition = "transform 0.3s ease-in-out";
+    project.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.1)";
+  });
 
-toggleButton.addEventListener("click", function () {
-  document.body.style.backgroundColor = dark ? "#f4f4f4" : "#121212";
-  document.body.style.color = dark ? "#333" : "#f4f4f4";
-  toggleButton.textContent = dark ? "🌙 Dark Mode" : "☀️ Light Mode";
-  dark = !dark;
+  // Event untuk saat sentuhan selesai
+  project.addEventListener("touchend", function () {
+    // Mengembalikan transformasi dan bayangan ke keadaan semula setelah sentuhan selesai
+    project.style.transform = "scale(1)";
+    project.style.boxShadow = "none";
+  });
 });
