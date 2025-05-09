@@ -1,115 +1,65 @@
-/* Reset dan dasar */
-* {
+/* Styling umum */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: #333;
-  line-height: 1.6;
 }
 
-/* Header */
 header {
-  background-color: #222;
-  color: #fff;
-  padding: 40px 20px;
+  background: #333;
+  color: white;
   text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
 
-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-header p {
-  font-size: 1.2rem;
-  opacity: 0.85;
-}
-
-/* Container */
 .container {
-  width: 90%;
+  padding: 20px;
   max-width: 900px;
-  margin: 30px auto;
-  background-color: #fff;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Judul section */
-h2 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-  color: #444;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-}
-
-/* Proyek */
-.project {
+section {
   margin-bottom: 20px;
-  padding-bottom: 15px;
-  border-bottom: 1px dashed #ccc;
-  transition: background 0.3s ease;
 }
 
-.project:hover {
+h2 {
+  color: #444;
+  font-size: 24px;
+}
+
+.project {
+  padding: 20px;
+  margin: 10px 0;
   background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .project h3 {
-  font-size: 1.3rem;
-  color: #222;
-  margin-bottom: 5px;
+  margin: 0;
+  font-size: 18px;
 }
 
-.project i {
-  color: #1e90ff;
-  margin-right: 8px;
+.project p {
+  font-size: 14px;
 }
 
-/* Kontak */
-section p {
-  font-size: 1rem;
-  margin-bottom: 8px;
+/* Efek Hover untuk Desktop */
+.project:hover {
+  background-color: #e0f7fa;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-section i {
-  color: #1e90ff;
-  margin-right: 8px;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 15px;
-  background-color: #222;
-  color: #fff;
-  margin-top: 40px;
-  font-size: 0.9rem;
-}
-
-/* Responsif */
-@media screen and (max-width: 768px) {
-  header h1 {
-    font-size: 2rem;
-  }
-
-  .container {
-    padding: 15px;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .project h3 {
-    font-size: 1.1rem;
-  }
+/* Efek Active untuk Perangkat Seluler */
+.project:active {
+  background-color: #b2ebf2;
+  transform: scale(1.03); /* Sedikit lebih kecil saat di-tap */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
