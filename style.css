@@ -63,3 +63,10 @@ h2 {
   transform: scale(1.03); /* Sedikit lebih kecil saat di-tap */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+
+footer {
+  text-align: center;  /* Menyusun teks di tengah */
+  padding: 10px 0;     /* Memberi jarak atas dan bawah */
+  background-color: #222; /* Warna latar belakang footer */
+  color: white;        /* Warna teks */
+}
