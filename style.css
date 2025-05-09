@@ -1,0 +1,125 @@
+/* Reset default margin dan padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Kontainer */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Heading */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Tentang Saya */
+section p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Proyek */
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* Kontak */
+section a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
+
+/* Responsivitas */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  section p, .project p {
+    font-size: 0.9rem;
+  }
+}
