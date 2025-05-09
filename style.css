@@ -1,72 +1,98 @@
-/* Styling umum */
+/* Mengatur warna latar belakang halaman secara keseluruhan */
 body {
-  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradien biru */
+  font-family: 'Roboto', sans-serif; /* Font Google */
+  color: #333;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
 }
 
+/* Mengatur tampilan header */
 header {
-  background: #333;
+  background-color: #333; /* Warna gelap untuk header */
   color: white;
+  padding: 20px 0;
   text-align: center;
-  padding: 20px;
 }
 
+/* Mengatur kontainer utama */
 .container {
   padding: 20px;
-  max-width: 900px;
-  margin: 20px auto;
+  max-width: 800px;
+  margin: auto;
   background: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan lembut di sekitar konten */
+  border-radius: 8px; /* Sudut melengkung */
 }
 
-section {
-  margin-bottom: 20px;
-}
-
-h2 {
-  color: #444;
-  font-size: 24px;
-}
-
+/* Mengatur bagian proyek */
 .project {
-  padding: 20px;
-  margin: 10px 0;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
-.project h3 {
-  margin: 0;
-  font-size: 18px;
-}
-
-.project p {
-  font-size: 14px;
-}
-
-/* Efek Hover untuk Desktop */
 .project:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px); /* Efek hover untuk sedikit mengangkat proyek */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Efek Active untuk Perangkat Seluler */
-.project:active {
-  background-color: #b2ebf2;
-  transform: scale(1.03); /* Sedikit lebih kecil saat di-tap */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+/* Mengatur link */
+a {
+  color: #00f2fe; /* Warna biru terang untuk link */
+  text-decoration: none; /* Hilangkan garis bawah */
+  transition: color 0.3s ease;
 }
 
+a:hover {
+  color: #ff6347; /* Ubah warna link saat hover */
+  text-decoration: underline; /* Menambahkan garis bawah saat hover */
+}
+
+/* Mengatur bagian footer */
 footer {
-  text-align: center;  /* Menyusun teks di tengah */
-  padding: 10px 0;     /* Memberi jarak atas dan bawah */
-  background-color: #222; /* Warna latar belakang footer */
-  color: white;        /* Warna teks */
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 15px;
+  text-align: center; /* Menambahkan ini untuk menengahkan teks */
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* Mengatur tulisan di dalam footer */
+footer p {
+  margin: 0;
+}
+
+/* Menambahkan padding pada setiap section */
+section {
+  padding: 20px 0;
+}
+
+/* Mengatur tampilan untuk icon dan teks */
+section i {
+  margin-right: 10px;
+}
+
+/* Efek hover pada icon */
+section a:hover i {
+  color: #ff6347;
+  transition: color 0.3s ease;
+}
+
+/* Mengatur ukuran dan tampilan untuk ikon */
+i {
+  font-size: 1.5em;
+}
+
+/* Menambahkan efek pada teks header */
+h1, h2, h3 {
+  transition: transform 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+  transform: scale(1.1); /* Membuat teks sedikit lebih besar saat dihover */
 }
