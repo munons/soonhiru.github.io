@@ -1,14 +1,14 @@
 # 🧰 Munons | Portofolio
 
-Selamat datang di website portofolio saya!  
+Selamat datang di website portofolio sederhana saya!  
 Saya adalah seorang **pelajar** dan **teknisi komputer** yang sedang belajar.
 
 ## ✨ Fitur
 
 - 🎨 Tampilan bersih, modern, dan responsif dengan **Bootstrap 5**
 - 🔠 Ikon menarik dari **Bootstrap Icons**
-- 📱 Efek animasi scroll dan hover untuk mobile & desktop
-- 📂 Konten: Tentang Saya, Proyek, dan Kontak
+- 📱 Efek animasi untuk mobile & desktop
+- 📂 Konten: Tentang Saya, Proyek, dan Kontak Sosial Medis
 - ⚙️ Custom CSS dan JavaScript untuk tampilan lebih menarik
 
 ## 🔗 Live Demo
