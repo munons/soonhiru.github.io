@@ -65,18 +65,29 @@ a:hover {
   align-items: center;
 }
 
-#typewriter-text {
+/* Typewriter Effect */
+.typewriter-text {
   font-family: 'Courier New', monospace;
-  font-size: 6px;
+  font-size: 1rem;
   color: #00bfff;
   white-space: nowrap;
   border-right: 2px solid #00bfff;
   display: inline-block;
-  animation: blink-caret 0.75s step-end infinite;
+  animation: blink-caret 0.75s step-end infinite, typing 3s steps(30) 1s forwards;
 }
 
 @keyframes blink-caret {
   50% {
     border-color: transparent;
+  }
+}
+
+/* Typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
   }
 }
