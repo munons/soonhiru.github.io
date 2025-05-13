@@ -22,10 +22,11 @@ const textToType = "Selamat datang di website kami!";
 let index = 0;
 
 function typeText() {
+  if (index === 0) textElement.textContent = ''; // Reset teks
   if (index < textToType.length) {
     textElement.textContent += textToType.charAt(index);
     index++;
-    setTimeout(typeText, 100); // Sesuaikan kecepatan mengetik
+    setTimeout(typeText, 100); // Ubah kecepatan jika perlu
   }
 }
 
