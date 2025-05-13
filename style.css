@@ -67,7 +67,7 @@ a:hover {
 
 #typewriter-text {
   font-family: 'Courier New', monospace;
-  font-size: 24px;
+  font-size: 16px;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid black;
